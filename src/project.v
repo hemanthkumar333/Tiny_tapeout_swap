@@ -25,3 +25,5 @@ module tt_um_example (
     // Tie off unused signals to prevent warnings.
     wire _unused = &{ena, clk, rst_n, uio_in, 1’b0};
  endmodule
+
+`default_nettype none
