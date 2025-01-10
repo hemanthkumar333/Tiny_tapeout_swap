@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+It swaps the 4 bit nibbles of LSB and MSB of 8 bit number.
 
 ## How to test
 
