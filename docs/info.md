@@ -13,8 +13,8 @@ It swaps the 4 bit nibbles of LSB and MSB of 8 bit number.
 
 ## How to test
 
-Explain how to use your project
+give some 8 bit number in hex format and the result should contain the swapped hex numbers.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+NA 
