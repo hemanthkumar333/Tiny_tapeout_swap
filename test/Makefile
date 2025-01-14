@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = swap_nibble.v
+PROJECT_SOURCES = tt_um_swap_nibble.v
 
 ifneq ($(GATES),yes)
 
