@@ -22,7 +22,7 @@
     wire VGND = 1’b0;
  ‘endif
     
-   swap_nibble user_project (
+   tt_um_swap_nibble user_project (
  ‘ifdef GL_TEST
     .VPWR (VPWR),
     .VGND (VGND),
