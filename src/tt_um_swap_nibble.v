@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module swap_nibble (
+module tt_um_swap_nibble (
     input wire [7:0] ui_in, // Dedicated inputs (8 bits)
     output wire [7:0] uo_out, // Dedicated outputs (8 bits)
     // Additional lines required by the TinyTapeout interface.
