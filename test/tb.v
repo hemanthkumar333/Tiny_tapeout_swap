@@ -1,5 +1,5 @@
- ‘default_nettype none
- ‘timescale 1ns / 1ps
+ 'default_nettype none
+ 'timescale 1ns / 1ps
 
  module tb ();
     initial begin
@@ -17,16 +17,16 @@
     wire [7:0] uio_out;
     wire [7:0] uio_oe;
     
- ‘ifdef GL_TEST
+ 'ifdef GL_TEST
     wire VPWR = 1’b1;
     wire VGND = 1’b0;
- ‘endif
+ 'endif
     
    tt_um_example user_project (
- ‘ifdef GL_TEST
+ 'ifdef GL_TEST
     .VPWR (VPWR),
     .VGND (VGND),
- ‘endif
+ 'endif
     .ui_in (ui_in),
     .uo_out (uo_out),
     .uio_in (uio_in),
